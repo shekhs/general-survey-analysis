@@ -16,7 +16,7 @@ import plotly.graph_objects as go
 # In[22]:
 
 
-df = pd.read_csv("gss2016.csv")
+df = pd.read_csv("dataset.csv")
 
 
 # In[23]:
@@ -34,13 +34,13 @@ df.shape
 # In[26]:
 
 
-df = df[["sex","race","age","degree","wrkstat","income","happy"]]
+#df = df[["sex","race","age","degree","wrkstat","income","happy"]]
 
 
 # In[27]:
 
 
-sns.pairplot(df,x_vars=["sex","race","age","degree","wrkstat"],y_vars="income")
+#sns.pairplot(df,x_vars=["sex","race","age","degree","wrkstat"],y_vars="income")
 
 
 # In[28]:
